@@ -2,13 +2,15 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.app.cat201app.LibraryController" stylesheets="@library.css">
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.app.cat201app.LibraryController" stylesheets="@library.css" spacing="20" alignment="TOP_CENTER">
 
     <!-- Input Fields for Book Details -->
     <HBox spacing="15" alignment="CENTER">
         <TextField fx:id="titleField" promptText="Book Title" />
         <TextField fx:id="authorField" promptText="Author Name" />
         <TextField fx:id="isbnField" promptText="ISBN Number" />
+        <Button text="Add Book" onAction="#onAddBook" />
+        <Button text="Search Books" onAction="#onSearchBook" />
     </HBox>
 
     <!-- Book Table -->
@@ -29,8 +31,6 @@
 
     <!-- Action Buttons -->
     <HBox spacing="15" alignment="CENTER">
-        <Button text="Add Book" onAction="#onAddBook" />
-        <Button text="Search Books" onAction="#onSearchBook" />
         <Button text="Display All Books" onAction="#onDisplayAllBooks" />
         <Button text="Display Borrowed Books" onAction="#onDisplayBorrowedBooks" />
         <Button text="Save Books" onAction="#onSaveBooks" />

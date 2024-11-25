@@ -70,7 +70,7 @@
     -fx-padding: 14px 28px;
     -fx-background-color: #3498DB; /* Blue background */
     -fx-text-fill: #FFFFFF; /* White text */
-    -fx-border-radius: 5px;
+    -fx-border-radius: 10px;
     -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 5, 0, 0, 3); /* Soft shadow */
 }
 
