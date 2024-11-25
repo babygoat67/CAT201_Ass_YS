@@ -1,0 +1,113 @@
+/* General Styling */
+.root {
+    -fx-background-color: #FFFFFF; /* White background */
+    -fx-padding: 30px;
+}
+
+/* Input Fields Styling */
+.text-field {
+    -fx-font-size: 16px;  /* Larger font size */
+    -fx-padding: 12px;
+    -fx-background-color: #ECF0F1; /* Light gray background for input fields */
+    -fx-border-radius: 10px;
+    -fx-border-color: #3498DB; /* Blue border */
+    -fx-text-fill: #2C3E50; /* Dark text for better readability */
+}
+
+.text-field:focused {
+    -fx-border-color: #1F77B4; /* Lighter blue border on focus */
+}
+
+/* TableView Styling */
+.table-view {
+    -fx-background-color: #ECF0F1;
+    -fx-text-fill: #2C3E50; /* Dark text for better readability */
+    -fx-font-size: 16px;  /* Larger font size */
+    -fx-border-radius: 10px;
+    -fx-border-color: #3498DB;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 10, 0, 0, 5); /* Soft shadow */
+    -fx-padding: 10px;
+    -fx-pref-width: 100%;  /* Ensure TableView uses full width */
+    -fx-pref-height: 100%; /* Ensure TableView uses full height */
+}
+
+.table-view .table-column {
+    -fx-alignment: CENTER;
+    -fx-text-fill: #3498DB; /* Blue column headers */
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;  /* Larger font size for column headers */
+}
+
+.table-view .table-cell {
+    -fx-font-size: 16px;  /* Larger font size for cells */
+    -fx-padding: 12px;
+    -fx-border-color: #3498DB;
+    -fx-border-width: 1px;
+    -fx-text-fill: #2C3E50; /* Dark text for contrast */
+}
+
+/* Alternating Row Colors */
+.table-view .table-row-cell:odd {
+    -fx-background-color: #F5F5F5; /* Light gray for odd rows */
+}
+
+.table-view .table-row-cell:even {
+    -fx-background-color: #FFFFFF; /* White for even rows */
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #3498DB; /* Lighter blue when selected */
+    -fx-text-fill: #FFFFFF; /* White text when selected */
+}
+
+.table-view .table-row-cell:hover {
+    -fx-background-color: #1F77B4; /* Lighter blue on hover */
+}
+
+/* Button Styling */
+.button {
+    -fx-font-size: 16px;  /* Larger font size */
+    -fx-padding: 14px 28px;
+    -fx-background-color: #3498DB; /* Blue background */
+    -fx-text-fill: #FFFFFF; /* White text */
+    -fx-border-radius: 5px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 5, 0, 0, 3); /* Soft shadow */
+}
+
+.button:hover {
+    -fx-background-color: #2980B9; /* Lighter blue on hover */
+}
+
+/* Action Button Specific Styling */
+.action-button {
+    -fx-background-color: #1ABC9C; /* Teal background */
+    -fx-text-fill: #fff;
+    -fx-font-size: 16px;  /* Larger font size */
+    -fx-font-weight: bold;
+    -fx-border-radius: 10px;
+    -fx-padding: 14px 28px;
+}
+
+.action-button:hover {
+    -fx-background-color: #16A085; /* Lighter teal on hover */
+}
+
+/* Overall Layout Adjustments */
+.HBox {
+    -fx-spacing: 20px;
+}
+
+.VBox {
+    -fx-spacing: 25px;
+    -fx-alignment: CENTER;
+}
+
+/* Input Fields and Buttons Rounded Corners */
+.text-field, .button {
+    -fx-border-radius: 10px; /* More rounded corners */
+}
+
+/* Adding More Padding for Buttons */
+.button, .action-button {
+    -fx-padding: 14px 28px; /* More padding for a better look */
+}
