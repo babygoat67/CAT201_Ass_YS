@@ -26,32 +26,33 @@ public class FileHandler {
     // Load books from the CSV file
     public static List<Book> loadBooks() {
         List<Book> books = new ArrayList<>();
-        File file = new File(FILE_NAME);
 
-        // Check if the file exists before trying to read it
-        if (!file.exists()) {
-            System.out.println("File does not exist, returning empty list.");
-            return books;  // Return an empty list if the file doesn't exist
-        }
+        try (InputStream inputStream = FileHandler.class.getClassLoader().getResourceAsStream(FILE_NAME)) {
+            if (inputStream == null) {
+                System.out.println("File not found in resources, returning empty list.");
+                return books;
+            }
 
-        try (BufferedReader reader = new BufferedReader(new FileReader(FILE_NAME))) {
-            String line;
-            while ((line = reader.readLine()) != null) {
-                // Split each line by commas to extract book details
-                String[] parts = line.split(",");
-                // Only process lines with exactly 5 fields
-                if (parts.length == 5) {
-                    Book book = parseBook(parts);
-                    books.add(book);
-                } else {
-                    System.err.println("Skipping invalid line: " + line);
+            // Read the file using BufferedReader
+            try (BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream))) {
+                String line;
+                while ((line = reader.readLine()) != null) {
+                    String[] parts = line.split(",");
+                    if (parts.length == 5) {
+                        Book book = parseBook(parts);
+                        books.add(book);
+                    } else {
+                        System.err.println("Skipping invalid line: " + line);
+                    }
                 }
             }
         } catch (IOException e) {
-            System.err.println("Error loading books: " + e.getMessage());
+            System.err.println("Error reading books: " + e.getMessage());
         }
+
         return books;
     }
+
 
     // Parse book details from a CSV line
     private static Book parseBook(String[] parts) {
