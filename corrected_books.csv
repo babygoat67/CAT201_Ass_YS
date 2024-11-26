@@ -1,48 +1,48 @@
-The Great Gatsby,F. Scott Fitzgerald,9780743273565,true,-
-To Kill a Mockingbird,Harper Lee,9780061120084,true,-
-1984,George Orwell,9780451524935,true,-
+The Great Gatsby,F. Scott Fitzgerald,9780743273565,false,Emily Davis
+To Kill a Mockingbird,Harper Lee,9780061120084,false,James Carter
+1984,George Orwell,9780451524935,false,Sophia Wilson
 Pride and Prejudice,Jane Austen,9780141439518,true,-
-The Catcher in the Rye,J.D. Salinger,9780316769488,true,-
-The Hobbit,J.R.R. Tolkien,9780547928227,true,-
-Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780439708180,true,-
+The Catcher in the Rye,J.D. Salinger,9780316769488,false,Grace Harris
+The Hobbit,J.R.R. Tolkien,9780547928227,false,Daniel Taylor
+Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780439708180,false,Liam Brown
 Moby-Dick,Herman Melville,9781853260087,true,-
-The Lord of the Rings,J.R.R. Tolkien,9780544003415,true,-
-The Chronicles of Narnia,C.S. Lewis,9780066238500,true,-
-Brave New World,Aldous Huxley,9780060850524,true,-
+The Lord of the Rings,J.R.R. Tolkien,9780544003415,false,Olivia Scott
+The Chronicles of Narnia,C.S. Lewis,9780066238500,false,Michael Adams
+Brave New World,Aldous Huxley,9780060850524,false,Charlotte Thompson
 The Grapes of Wrath,John Steinbeck,9780140186420,true,-
 Wuthering Heights,Emily Brontë,9780141439556,true,-
 The Odyssey,Homer,9780140268867,true,-
 Crime and Punishment,Fyodor Dostoevsky,9780486415871,true,-
 Jane Eyre,Charlotte Brontë,9780141441146,true,-
-Animal Farm,George Orwell,9780451526342,true,-
+Animal Farm,George Orwell,9780451526342,false,Hannah White
 Frankenstein,Mary Shelley,9780486282114,true,-
 War and Peace,Leo Tolstoy,9780140447934,true,-
 Les Misérables,Victor Hugo,9780451419439,true,-
 Fahrenheit 451,Ray Bradbury,9781451673319,true,-
-The Picture of Dorian Gray,Oscar Wilde,9780141439570,true,-
+The Picture of Dorian Gray,Oscar Wilde,9780141439570,false,Nathan Roberts
 The Shining,Stephen King,9780307743657,true,-
-The Fault in Our Stars,John Green,9780525478812,true,-
+The Fault in Our Stars,John Green,9780525478812,false,William Moore
 Gone with the Wind,Margaret Mitchell,9781416548942,true,-
-The Hunger Games,Suzanne Collins,9780439023528,true,-
+The Hunger Games,Suzanne Collins,9780439023528,false,Emma Lewis
 The Da Vinci Code,Dan Brown,9780307474278,true,-
 The Girl on the Train,Paula Hawkins,9781594633669,true,-
 The Twilight Saga,Stephenie Meyer,9780316015844,true,-
-The Alchemist,Paulo Coelho,9780061122415,true,-
+The Alchemist,Paulo Coelho,9780061122415,false,Emily Wilson
 The Help,Kathryn Stockett,9780399128533,true,-
 The Secret,Rhonda Byrne,9781582701707,true,-
 The 5th Wave,Rick Yancey,9780399162411,true,-
-Percy Jackson & The Olympians,Rick Riordan,9780786838653,true,-
-Divergent,Veronica Roth,9780062024039,true,-
-The Maze Runner,James Dashner,9780385737951,true,-
-The Book Thief,Markus Zusak,9780375842207,true,-
-The Night Circus,Erin Morgenstern,9780307744432,true,-
+Percy Jackson & The Olympians,Rick Riordan,9780786838653,false,Isabella Davis
+Divergent,Veronica Roth,9780062024039,false,Michael Harris
+The Maze Runner,James Dashner,9780385737951,false,Henry Carter
+The Book Thief,Markus Zusak,9780375842207,false,Lucas Martinez
+The Night Circus,Erin Morgenstern,9780307744432,false,Ava Hall
 The Girl with the Dragon Tattoo,Stieg Larsson,9780307454546,true,-
 The Outsiders,S.E. Hinton,9780142407332,true,-
 A Game of Thrones,George R.R. Martin,9780553593716,true,-
 The Martian,Andy Weir,9780553418026,true,-
 The Princess Bride,William Goldman,9780156012195,true,-
 The Shadow of the Wind,Carlos Ruiz Zafón,9780143034902,true,-
-The Kite Runner,Khaled Hosseini,9781594631931,true,-
+The Kite Runner,Khaled Hosseini,9781594631931,false,Sophie Clark
 Shutter Island,Dennis Lehane,9780060523422,true,-
 Slaughterhouse-Five,Kurt Vonnegut,9780385333849,true,-
 The Road,Cormac McCarthy,9780307387899,true,-
@@ -64,7 +64,7 @@ Sharp Objects,Gillian Flynn,9780307341556,true,-
 The Stranger,Albert Camus,9780679720201,true,-
 One Flew Over the Cuckoo's Nest,Kenneth Kesey,9780451163967,true,-
 The Perks of Being a Wallflower,Stephen Chbosky,9780671027346,true,-
-The Catcher in the Rye,J.D. Salinger,9780316769488,true,-
+The Catcher in the Rye,J.D. Salinger,9780316769488,false,Grace Harris
 The Help,Kathryn Stockett,9780399155345,true,-
 The Immortalists,Chloe Benjamin,9780735213192,true,-
 Where the Crawdads Sing,Delia Owens,9780735219095,true,-
@@ -73,10 +73,10 @@ Little Fires Everywhere,Celeste Ng,9780735224310,true,-
 Educated,Tara Westover,9780399590504,true,-
 Becoming,Michelle Obama,9781524763138,true,-
 The Tattooist of Auschwitz,Heather Morris,9780062797160,true,-
-The Book Thief,Markus Zusak,9780375842207,true,-
+The Book Thief,Markus Zusak,9780375842207,false,Lucas Martinez
 The Art of Racing in the Rain,Garth Stein,9780061537969,true,-
 All the Light We Cannot See,Anthony Doerr,9781501173219,true,-
-The Night Circus,Erin Morgenstern,9780307744432,true,-
+The Night Circus,Erin Morgenstern,9780307744432,false,Ava Hall
 The Underground Railroad,Colson Whitehead,9780385542364,true,-
 The Outsiders,S.E. Hinton,9780142407332,true,-
 The Glass Castle,Jeannette Walls,9780743247542,true,-

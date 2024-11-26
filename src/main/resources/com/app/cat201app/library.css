@@ -1,6 +1,8 @@
 /* General Styling */
 .root {
-    -fx-background-color: #FFFFFF; /* White background */
+    -fx-background-image: url("Library_background.jpg"); /* Background image */
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
     -fx-padding: 30px;
 }
 
@@ -76,6 +78,8 @@
 
 .button:hover {
     -fx-background-color: #2980B9; /* Lighter blue on hover */
+    -fx-scale-x: 1.1; /* Simple animation on hover */
+    -fx-scale-y: 1.1; /* Simple animation on hover */
 }
 
 /* Action Button Specific Styling */
@@ -90,6 +94,8 @@
 
 .action-button:hover {
     -fx-background-color: #16A085; /* Lighter teal on hover */
+    -fx-scale-x: 1.1; /* Simple animation on hover */
+    -fx-scale-y: 1.1; /* Simple animation on hover */
 }
 
 /* Overall Layout Adjustments */
